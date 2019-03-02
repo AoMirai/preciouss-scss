@@ -1,0 +1,185 @@
+.montableau{
+  text-align: center;
+}
+
+.basdepage{
+  background-color: grey;
+}
+
+.besthunters{
+  justify-content: space-around;
+}
+
+.boutoncontact{
+  text-align: center;
+}
+
+.row.gandalfflex{
+  justify-content: space-around;
+  align-items: : center;
+}
+
+.pillsfellows {
+  justify-content: center;
+}
+
+.fellowsintervalle{
+  font-size: 15px;
+}
+
+/*image Gandalf*/
+.gandalfimage .reward {
+  width:250px;
+  height:90px;
+  position: absolute;
+  top : 2.5%;
+  left:6%;
+  font-size: 25px;
+  background-color: white;
+  opacity : 0.8;
+  border-radius : 10px;
+  text-align:center;
+}
+
+.gandalfimage .coins {
+  color : orange;
+}
+
+.gandalfimage {
+  opacity:0.5;
+}
+
+.gandalfimage .gandalf {
+  width:250px;
+  height:90px;
+  position: absolute;
+  top: 25%;
+  left:6%;
+  font-size: 60px;
+  color:white;
+  text-align:center;
+}
+
+.gandalfimage:hover{
+  opacity:1;
+}
+
+.gandalfimage:hover .reward{
+  display:none;
+}
+
+.gandalfimage:hover .gandalf{
+    width:250px;
+    height:90px;
+    position: absolute;
+    font-size: 40px;
+    color:white;
+    top: 48%;
+    left: 8%;  
+}
+
+/*image Gandalf fin*/
+
+/*image Hobbit*/
+.hobbitimage .reward {
+  width:250px;
+  height:90px;
+  position: absolute;
+  top : 2.5%;
+  left:6%;
+  font-size: 25px;
+  background-color: white;
+  opacity : 0.8;
+  border-radius : 10px;
+  text-align:center;
+}
+
+.hobbitimage .coins {
+  color : orange;
+}
+
+.hobbitimage {
+  opacity:0.5;
+}
+
+.hobbitimage .hobbit {
+  width:250px;
+  height:90px;
+  position: absolute;
+  top: 25%;
+  left:6%;
+  font-size: 60px;
+  color:white;
+  text-align:center;
+}
+
+.hobbitimage:hover{
+  opacity:1;
+}
+
+.hobbitimage:hover .reward{
+  display:none;
+}
+
+.hobbitimage:hover .hobbit{
+    width:250px;
+    height:90px;
+    position: absolute;
+    font-size: 40px;
+    color:white;
+    top: 48%;
+    left: 8%;  
+}
+/*image Hobbit fin*/
+
+/*image Dwarf*/
+.dwarfimage .reward {
+  width:250px;
+  height:90px;
+  position: absolute;
+  top : 2.5%;
+  left:6%;
+  font-size: 25px;
+  background-color: white;
+  opacity : 0.8;
+  border-radius : 10px;
+  text-align:center;
+}
+
+.dwarfimage .coins {
+  color : orange;
+}
+
+.dwarfimage {
+  opacity:0.5;
+}
+
+.dwarfimage .dwarf {
+  width:250px;
+  height:90px;
+  position: absolute;
+  top: 25%;
+  left:6%;
+  font-size: 60px;
+  color:white;
+  text-align:center;
+}
+
+.dwarfimage:hover{
+  opacity:1;
+}
+
+.dwarfimage:hover .reward{
+  display:none;
+}
+
+.dwarfimage:hover .dwarf{
+    width:250px;
+    height:90px;
+    position: absolute;
+    font-size: 40px;
+    color:white;
+    top: 48%;
+    left: 8%;  
+}
+/*image Dwarf fin*/
