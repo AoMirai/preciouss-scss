@@ -16,32 +16,47 @@
 
 <!-- navbar -->
 <header>
-<div class="container-fluid fond-orange">
-  <nav class="navbar navbar-expand-lg navbar-light">
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light fond-orange">
     <img src="https://i.postimg.cc/CK4D8xRy/logo.png" alt="logo">
-    <a class="navbar-brand" href="#Menu">Menu</a>
+    <a class="navbar-brand" href="#Menu"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="collapse navbar-collapse menu-droite" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#Fellows">Fellows <span class="sr-only">(current)</span></a>
+          <a class="nav-link texte-blanc" href="#Fellows">Fellows<span class="sr-only">(current)</span></a>
+        </li>
+        <li>
+          <p class="barre-blanche">|</p>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#TheRing">The Ring</a>
+          <a class="nav-link texte-blanc" href="#TheRing">The Ring</a>
+        </li>
+        <li>
+          <p class="barre-blanche">|</p>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Reward">Reward</a>
+          <a class="nav-link texte-blanc" href="#Reward">Reward</a>
+        </li>
+        <li>
+          <p class="barre-blanche">|</p>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Hunters">Hunters</a>
+          <a class="nav-link texte-blanc" href="#Hunters">Hunters</a>
+        </li>
+        <li>
+          <p class="barre-blanche">|</p>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Army">Army</a>
+          <a class="nav-link texte-blanc" href="#Army">Join</a>
+        </li>
+        <li>
+          <p class="barre-blanche">|</p>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Contact">Contact</a>
+          <a class="nav-link texte-blanc" href="#Contact">Contact</a>
         </li>
        </ul>
     </div>
@@ -52,39 +67,34 @@
 
 <!-- carrousel -->
 <section>
-<div class="bd-example">
+<div class="container bd-example">
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-    </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://i.postimg.cc/9fnp0BzR/dark-vador.jpg" class="d-block w-100" alt="Gandalf">
+        <img src="https://i.postimg.cc/kXdzMkMf/vador.png" class="d-block w-100" alt="Gandalf">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Sauron is very good bro,</h5>
-          <p>Please help huim to find the ring</p>
+          <h1>sauron is very good bro,</h1>
+          <p>Please help him to find the ring</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://i.postimg.cc/RCQT9QnL/Der-Herr-der-Ringe.jpg"  class="d-block w-100" alt="Gandalf">
+        <img src="https://i.postimg.cc/4d92s1rD/le-seigneur-des-anneaux.png"  class="d-block w-100" alt="Gandalf">
         <div class="carousel-caption d-none d-md-block">
-          <h5>The threat</h5>
+          <h1>The threat</h1>
           <p>Dangerous fellowship try to destroy the ring</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://i.postimg.cc/jdTJXLvg/CMFG6np-Ww-AAro3r.jpg" class="d-block w-100" alt="Gobelins">
+        <img src="https://i.postimg.cc/qBcQwg0x/Gollum.png" class="d-block w-100" alt="Gobelins">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Protect your master</h5>
+          <h1>Protect your master</h1>
           <p>Orcs, Goblins, Balrods, protect your master Sauron !</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://i.postimg.cc/HkWsJHxh/beau-bague-seigneur-des-anneaux-en-or-phoebe-lanneau-invisible-d.jpg" class="d-block w-100" alt="Anneau">
+        <img src="https://i.postimg.cc/T3NtbSG8/anneau.png" class="d-block w-100" alt="Anneau">
         <div class="carousel-caption d-none d-md-block">
-          <h5>The reward</h5>
+          <h1>The reward</h1>
           <p>Get the ring !</p>
         </div>
       </div>
@@ -99,20 +109,20 @@
     </a>
   </div>
 </div>
-</section> 
+</section>
 <!-- carrousel fin -->
-<br>
 
 <!-- pills -->
+<div class="container">
 <section id="Fellows" class="fond-gris">
-  <h2>Fellows wanted dead <span class="fellowsintervalle">(or alive if you want to eat them later)</span></h2>
-    <div class="container-fluid">
+  <h2><span class="caractere">ij</span> Fellows wanted dead <span class="fellowsintervalle">(or alive if you want to eat them later)</span><span class="caractere">ij</span></h2>
+    <div class="container">
       <ul class="nav nav-pills pillsfellows">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Most wanted</a>
+          <a class="nav-link" href="#">Most wanted</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Most dangerous</a>
+          <a class="nav-link active" href="#"><span class="caractere2">b</span>Most dangerous<span class="caractere2">b</span></a>
         </li>
         <li class="nav-item">
            <a class="nav-link" href="#">Already captured</a>
@@ -122,7 +132,7 @@
 <!-- pills fin -->
 <br>
 <!-- cards images -->
-<div class="container-fluid">
+<div class="container">
   <div class="row gandalfflex">
         <div class="card gandalfimage" style="width: 18rem;">
               <img src="http://images.innoveduc.fr/integration_gandalf.png" class = "card-img-top" alt="Gandalf">
@@ -157,32 +167,33 @@
     </div>
 </div>
 
-<hr/>
 <!-- fin cards images -->
 </section>
+</div>
 
+<div class="container">
 <section id="Reward" class="fond-noir">
-    <h2>I have capured one of them, how to get my reward ? </h2>
+    <h2><span class="caractere">ij</span>I have capured one of them, how to get my reward ?<span class="caractere">ij</span></h2>
     <br>
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
-      <p class="col-9">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod dignissim orci at finibus. Maecenas dignissim pharetra hendrerit. Suspendisse potenti. Proin malesuada ultrices accumsan. Pellentesque quis neque risus. Donec venenatis nunc vitae odio molestie tincidunt. Integer nunc ante, porta vel pharetra at, ornare vitae ipsum.</p>
-      <img src = "https://i.postimg.cc/kGDjMXQC/coin-sauron.png" class="col-3 image-ronde" alt = "placeholder1" />
+      <p class="col-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod dignissim orci at finibus. Maecenas dignissim pharetra hendrerit. Suspendisse potenti. Proin malesuada ultrices accumsan. Pellentesque quis neque risus. Donec venenatis nunc vitae odio molestie tincidunt. Integer nunc ante, porta vel pharetra at, ornare vitae ipsum.</p>
+      <img src = "https://i.postimg.cc/kGDjMXQC/coin-sauron.png" class="col-2 image-ronde" alt = "placeholder1" />
       </div>
     </div>
-    <div class="container-fluid boutoncontact">
+    <div class="container boutoncontact">
       <button type="button" class="btn btn-secondary">Contact us</button>
     </div>
 </section>
+</div>
 
-<hr/>
-
+<div class="container">
 <section id="Hunters" class="fond-gris">
 
     <!--menumedia déb-->
-<h2>Best hunters </h2>
+<h2><span class="caractere">ij</span>Our best hunters<span class="caractere">ij</span></h2>
         
-<div class="container-fluid">
+<div class="container">
     <div class="row besthunters">
         <div class="media">
         <img src="https://i.postimg.cc/MTCWKyzz/hunter1.png" class="align-self-start mr-3" alt="Hunter1">
@@ -210,17 +221,17 @@
 <!-- menumedia fin -->
 
 </section>
+</div>
 
-<hr/>
-
+<div class="container">
 <section id="TheRing" class="fond-noir">
-  <h2>About the ring</h2>
-    <div class="container-fluid">
+  <h2><span class="caractere">ij</span>About the ring<span class="caractere">ij</span></h2>
+    <div class="container texte-noir">
       <div class="card">
-        <div class="card-header">
+        <div class="card-header fond-orange">
           <h3>Ring Capabilities</h3>
         </div>
-        <div class="card-body">
+        <div class="card-body tableau-gris">
           <h5 class="card-title">What can our master Sauron do with the ring ?</h5>
           <p class="card-text"><table class="table table-bordered montableau">
               <thead>
@@ -250,9 +261,9 @@
       </div>
     </div>
 <br>    
-  <div class="container-fluid"> 
+  <div class="container texte-noir"> 
     <div class="card">
-      <div class="card-header">
+      <div class="card-header fond-orange">
         <h3>Why the ring is awesome ? </h3>
       </div>
         <div class="row">
@@ -265,27 +276,31 @@
     </div>
   </div>  
 </section>
+</div>
 
-<hr/>
-
+<div class="container">
 <section id="Army" class="fond-gris">
-  <h2>Join Mordor Army, we need you !</h2>
-  <div class="container-fluid">
+  <h2><span class="caractere">ij</span>Join Mordor Army, we need you !<span class="caractere">ij</span></h2>
+  <div class="container">
     <div class="row">
-      <img src = "https://i.postimg.cc/JzWBd8LT/army.png" class="col-4" alt = "placeholder5" />
       <p class="col-8"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod dignissim orci at finibus. Maecenas dignissim pharetra hendrerit. Suspendisse potenti. Proin malesuada ultrices accumsan. Pellentesque quis neque risus. Donec venenatis nunc vitae odio molestie tincidunt. Integer nunc ante, porta vel pharetra at, ornare vitae ipsum.</p>
+      <img src = "https://i.postimg.cc/qvC3H93w/army.png" class="col-4" alt = "placeholder5" />
     </div>
-    <div class="container-fluid boutoncontact">
-      <button type="button" class="btn btn-secondary">More info on SauronRulesThemAll.com</button>
+    <div class="row">
+      <img class="col-3" src="https://i.postimg.cc/VLZq8qHf/weneedyou-1.png" alt="join us"/>
+      <div class="bouton-site boutoncontact">
+        <p>More info on</p>
+        <button type="button" class="btn btn-secondary">SauronRulesThemAll.com</button>
+      </div>
     </div>
   </div>
 </section>
-
-<hr/>
+</div>
 
 <!-- contact form -->
+<div class="container">
 <section id="Contact" class="fond-noir">
-  <h2>Contact Us</h2>
+  <h2><span class="caractere">ij</span>Contact Us<span class="caractere">ij</span></h2>
   <br>
   <div class="container contact-us">
     <div class="row">
@@ -300,7 +315,7 @@
             <div class="form-group">
               <label for="exampleFormControlTextarea1"></label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
+            
           </select>
         </div>
         <div class="col-6">
@@ -309,13 +324,12 @@
       </div>
     </div>
 </section>
+</div>
 <!-- fin contact form -->
 
-<br>
-
 <footer>
-  <div class="container-fluid basdepage">
-    <div class="row">
+  <div class="container">
+    <div class="row basdepage">
       <div class="col-4">
         <p>About us</p>
         <p>Fellows</p>
@@ -329,6 +343,9 @@
       <div class="col-4">
         <p>Sauron4Ever.com</p>
         <p>Follow him also on twitter</p>
+        <div class="container">
+        <img class="logo-fin" src="https://i.postimg.cc/CK4D8xRy/logo.png" alt="logo">
+        </div>
       </div>
     </div>
   </div>
