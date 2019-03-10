@@ -1,9 +1,60 @@
+@font-face {
+  font-family: 'partybusiness';
+  src: url('Polices/partybusiness/partybusiness.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'aniron';
+  src: url('Polices/aniron/anicb.ttf') format("truetype"),;
+  src: url('Polices/aniron/anicm.ttf') format("truetype"),;
+  src: url('Polices/aniron/anirb.ttf') format("truetype"),;
+  src: url('Polices/aniron/anirm.ttf') format("truetype");
+}
+
+
+h2 {
+  font-family: aniron;
+}
+
+p {
+  font-family: partybusiness;
+}
+
+.image-ronde {
+  border-radius: 50%;
+}
+
+.contact-us {
+  justify-content: space-between;
+}
+
+.contact-carte {
+  width: 90%;
+  height: 90%;
+}
+
+.fond-gris {
+  background-image: url("https://i.postimg.cc/qMNCMdyL/bg-light.png");
+}
+
+.fond-noir {
+  background-image: url("https://i.postimg.cc/GmWMjCk3/bg-dark.png");
+}
+
+.contact-carte {
+  display: flex;
+}
+
+.fond-orange {
+  background-color: orange;
+}
+
 .montableau{
   text-align: center;
 }
 
 .basdepage{
-  background-color: grey;
+  background-color: orange;
 }
 
 .besthunters{
@@ -46,7 +97,7 @@
 }
 
 .gandalfimage {
-  opacity:0.5;
+  opacity:0.7;
 }
 
 .gandalfimage .gandalf {
@@ -99,7 +150,7 @@
 }
 
 .hobbitimage {
-  opacity:0.5;
+  opacity:0.7;
 }
 
 .hobbitimage .hobbit {
@@ -151,7 +202,7 @@
 }
 
 .dwarfimage {
-  opacity:0.5;
+  opacity:0.7;
 }
 
 .dwarfimage .dwarf {
