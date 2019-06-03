@@ -1,0 +1,24 @@
+@mixin myCircle($color, $radius, $width, $height, $bordertype, $bordersize, $bordercolor, $boxshadowtop, $boxshadowbot, $boxshadowcolor) {
+  color: $color;
+  border-radius: $radius;
+  width: $width;
+  height: $height;
+  border: $bordertype $bordersize $bordercolor;
+  box-shadow: $boxshadowtop, $boxshadowbot, $boxshadowcolor;
+}
+
+.circle {
+  @include myCircle(yellow, 50%, 100px, 100px, solid, 6px, yellow, 4px, 4px, rgb(210, 210, 210))
+}
+
+@for $i from 1 through 6 {
+  .six-circle-#{$i} {
+    color: yellow;
+    border-radius: 50%;
+    width: 50px * $i;
+    height: 50px * $i;
+    border: solid 6px yellow;
+    box-shadow: 4px, 4px, rgb(210, 210, 210);
+    margin-left: 6px - 2*$i  
+  }
+}
