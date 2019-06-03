@@ -1,76 +1,12 @@
-.circle {
-  color: yellow;
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  border: solid 6px yellow;
-  box-shadow: 4px 4px rgb(210, 210, 210)
-}
-
-.six-circle-1 {
-  color: yellow;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  border: solid 6px yellow;
-  box-shadow: 4px, 4px, #d2d2d2;
-  margin-left: -10px;
-}
-
-.six-circle-2 {
-  color: yellow;
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  border: solid 6px yellow;
-  box-shadow: 4px, 4px, #d2d2d2;
-  margin-left: -20px;
-}
-
-.six-circle-3 {
-  color: yellow;
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  border: solid 6px yellow;
-  box-shadow: 4px, 4px, #d2d2d2;
-  margin-left: -30px;
-}
-
-.six-circle-4 {
-  color: yellow;
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  border: solid 6px yellow;
-  box-shadow: 4px, 4px, #d2d2d2;
-  margin-left: -40px;
-}
-
-.six-circle-5 {
-  color: yellow;
-  border-radius: 50%;
-  width: 250px;
-  height: 250px;
-  border: solid 6px yellow;
-  box-shadow: 4px, 4px, #d2d2d2;
-  margin-left: -50px;
-}
-
-.six-circle-6 {
-  color: yellow;
-  border-radius: 50%;
-  width: 300px;
-  height: 300px;
-  border: solid 6px yellow;
-  box-shadow: 4px, 4px, #d2d2d2;
-  margin-left: -60px;
-}
-
 .menu-droite {
   display: flex;
   justify-content: flex-end;
   line-height: 3px;
+}
+
+.marge-div {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -107,4 +43,17 @@ a {
   background-color: #FF4500;
   color: white;
   font-family: aniron;
+}
+
+.text {
+  font-family: aniron;
+  font-size: 30px;
+}
+
+@font-face {
+  font-family: 'aniron';
+  src: url('Polices/aniron/anicb___.ttf') format("truetype"),;
+  src: url('Polices/aniron/anicm___.ttf') format("truetype"),;
+  src: url('Polices/aniron/anirb___.ttf') format("truetype"),;
+  src: url('Polices/aniron/anirm___.ttf') format("truetype");
 }

@@ -1,0 +1,27 @@
+@import 'precious.css';
+
+@mixin myCircle($radius, $width, $height, $bordertype, $bordersize, $bordercolor, $boxshadowtop, $boxshadowbot, $boxshadowcolor) {
+  border-radius: $radius;
+  width: $width;
+  height: $height;
+  border: $bordertype $bordersize $bordercolor;
+  box-shadow: $boxshadowtop $boxshadowbot $boxshadowcolor , inset $boxshadowtop $boxshadowbot $boxshadowcolor;
+}
+
+.circle-jaune {
+  @include myCircle(50%, 150px, 150px, solid, 10px, yellow, 4px, 4px, rgb(210, 210, 210))
+}
+
+.circle-orange {
+  @include myCircle(50%, 50px, 50px, solid, 6px, orange, 0px, 0px, rgb(210, 210, 210))
+}
+
+@for $i from 1 through 6 {
+    .six-circle-#{$i} {
+      border-radius: 50%;
+      width: 30px + 5 * $i;
+      height: 30px + 5 *$i;
+      border: solid 4px + 0.4*$i rgb(82, 80, 80);
+      margin-left: -5px - 3*$i  
+    }
+  }
